@@ -133,15 +133,7 @@ class MainWindow:
     def _update_header_stats(self):
         """Actualiza las estadísticas del header."""
         stats = self.app_controller.get_system_statistics()
-        
-        stats_text = (
-            f"Generación: {stats['generacion']} | "
-            f"Usuarios: {stats['total_usuarios']} | "
-            f"Satisfacción: {stats['promedio_satisfaccion']:.1f}/5"
-        )
-        
-        self.stats_label.config(text=stats_text)
-    
+            
     def show_view(self, view_name: str, **kwargs):
         """
         Muestra una vista específica.
