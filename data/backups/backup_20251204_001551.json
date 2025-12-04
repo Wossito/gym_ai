@@ -1134,6 +1134,214 @@
           "usuarios_similares": 1,
           "metodo": "bayesiano"
         }
+      },
+      {
+        "id": "RUT_20251203_235917",
+        "perfil": {
+          "edad": 21,
+          "peso": 70.0,
+          "altura": 1.72,
+          "imc": 23.66,
+          "nivel_num": 1,
+          "nivel_str": "principiante",
+          "objetivo_num": 1,
+          "objetivo_str": "perder_peso",
+          "dias": 3,
+          "created_at": "2025-12-03T23:59:17.503512"
+        },
+        "rutina": {
+          "routine_id": "RUT_20251203_235917",
+          "perfil": {
+            "edad": 21,
+            "peso": 70.0,
+            "altura": 1.72,
+            "imc": 23.66,
+            "nivel_num": 1,
+            "nivel_str": "principiante",
+            "objetivo_num": 1,
+            "objetivo_str": "perder_peso",
+            "dias": 3,
+            "created_at": "2025-12-03T23:59:17.503512"
+          },
+          "rutina_semanal": {
+            "Día 1": [
+              {
+                "ejercicio": "Fondos en paralelas",
+                "grupo": "pecho",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "45s"
+              },
+              {
+                "ejercicio": "Remo en polea",
+                "grupo": "espalda",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "44s"
+              },
+              {
+                "ejercicio": "Sentadilla",
+                "grupo": "piernas",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "44s"
+              },
+              {
+                "ejercicio": "Press militar",
+                "grupo": "hombros",
+                "series": 3,
+                "repeticiones": "12-20",
+                "descanso": "38s"
+              },
+              {
+                "ejercicio": "Dominadas cerradas",
+                "grupo": "brazos",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "50s"
+              },
+              {
+                "ejercicio": "Bicicleta",
+                "grupo": "cardio",
+                "duracion": "22 min",
+                "intensidad": "HIIT"
+              }
+            ],
+            "Día 2": [
+              {
+                "ejercicio": "Fondos en paralelas",
+                "grupo": "pecho",
+                "series": 3,
+                "repeticiones": "14-20",
+                "descanso": "54s"
+              },
+              {
+                "ejercicio": "Dominadas",
+                "grupo": "espalda",
+                "series": 3,
+                "repeticiones": "14-19",
+                "descanso": "51s"
+              },
+              {
+                "ejercicio": "Prensa",
+                "grupo": "piernas",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "43s"
+              },
+              {
+                "ejercicio": "Press Arnold",
+                "grupo": "hombros",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "36s"
+              },
+              {
+                "ejercicio": "Press cerrado",
+                "grupo": "brazos",
+                "series": 3,
+                "repeticiones": "13-19",
+                "descanso": "43s"
+              },
+              {
+                "ejercicio": "Escaladora",
+                "grupo": "cardio",
+                "duracion": "21 min",
+                "intensidad": "HIIT"
+              }
+            ],
+            "Día 3": [
+              {
+                "ejercicio": "Fondos en paralelas",
+                "grupo": "pecho",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "33s"
+              },
+              {
+                "ejercicio": "Remo en polea",
+                "grupo": "espalda",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "60s"
+              },
+              {
+                "ejercicio": "Sentadilla",
+                "grupo": "piernas",
+                "series": 3,
+                "repeticiones": "12-18",
+                "descanso": "48s"
+              },
+              {
+                "ejercicio": "Remo al mentón",
+                "grupo": "hombros",
+                "series": 3,
+                "repeticiones": "12-19",
+                "descanso": "33s"
+              },
+              {
+                "ejercicio": "Dominadas cerradas",
+                "grupo": "brazos",
+                "series": 3,
+                "repeticiones": "12-20",
+                "descanso": "54s"
+              },
+              {
+                "ejercicio": "HIIT",
+                "grupo": "cardio",
+                "duracion": "25 min",
+                "intensidad": "HIIT"
+              }
+            ]
+          },
+          "estructura": "fullbody",
+          "metadatos": {
+            "modo_generacion": "exploracion",
+            "innovacion_level": "alta"
+          },
+          "fecha_generacion": "2025-12-03T23:59:17.530957",
+          "satisfaccion": null,
+          "comentarios": null
+        },
+        "fecha_generacion": "2025-12-03T23:59:17.530957",
+        "modo": "exploracion",
+        "generacion": 0,
+        "parametros_inferidos": {
+          "series": 3,
+          "repeticiones_min": 14,
+          "repeticiones_max": 18,
+          "descanso": "30-45s",
+          "confianza": 0.1,
+          "basado_en": 1,
+          "metodo": "inferencia_datos"
+        },
+        "clasificacion_usuario": {
+          "categoria": "novato",
+          "descripcion": "Primera vez usando el sistema",
+          "experiencias": 0,
+          "satisfaccion_promedio": 0,
+          "rendimiento": "necesita_ajuste",
+          "recomendaciones": [
+            "Comienza con rutinas Full Body 3 días/semana",
+            "Enfócate en aprender técnica correcta",
+            "Da feedback detallado para ayudar al sistema"
+          ]
+        },
+        "prediccion_satisfaccion": {
+          "satisfaccion_predicha": 3.1,
+          "confianza": 0.8,
+          "factores": {
+            "promedio_similares": 3.0,
+            "cantidad_similares": 2,
+            "similitud_promedio": 0.9374999930676005,
+            "ajuste_complejidad": 0.5,
+            "patron_existe": true,
+            "cantidad_patrones": 2
+          },
+          "recomendacion": false,
+          "usuarios_similares": 2,
+          "metodo": "bayesiano"
+        }
       }
     ],
     "historico_usuarios": [
@@ -1492,6 +1700,178 @@
         "satisfaccion": 4,
         "comentarios": "me adapte",
         "fecha": "2025-12-03T23:14:35.278644"
+      },
+      {
+        "perfil": {
+          "edad": 21,
+          "peso": 70.0,
+          "altura": 1.72,
+          "imc": 23.66,
+          "nivel_num": 1,
+          "nivel_str": "principiante",
+          "objetivo_num": 1,
+          "objetivo_str": "perder_peso",
+          "dias": 3,
+          "created_at": "2025-12-03T23:59:17.503512"
+        },
+        "rutina_id": "RUT_20251203_235917",
+        "rutina_exitosa": {
+          "routine_id": "RUT_20251203_235917",
+          "perfil": {
+            "edad": 21,
+            "peso": 70.0,
+            "altura": 1.72,
+            "imc": 23.66,
+            "nivel_num": 1,
+            "nivel_str": "principiante",
+            "objetivo_num": 1,
+            "objetivo_str": "perder_peso",
+            "dias": 3,
+            "created_at": "2025-12-03T23:59:17.503512"
+          },
+          "rutina_semanal": {
+            "Día 1": [
+              {
+                "ejercicio": "Fondos en paralelas",
+                "grupo": "pecho",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "45s"
+              },
+              {
+                "ejercicio": "Remo en polea",
+                "grupo": "espalda",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "44s"
+              },
+              {
+                "ejercicio": "Sentadilla",
+                "grupo": "piernas",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "44s"
+              },
+              {
+                "ejercicio": "Press militar",
+                "grupo": "hombros",
+                "series": 3,
+                "repeticiones": "12-20",
+                "descanso": "38s"
+              },
+              {
+                "ejercicio": "Dominadas cerradas",
+                "grupo": "brazos",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "50s"
+              },
+              {
+                "ejercicio": "Bicicleta",
+                "grupo": "cardio",
+                "duracion": "22 min",
+                "intensidad": "HIIT"
+              }
+            ],
+            "Día 2": [
+              {
+                "ejercicio": "Fondos en paralelas",
+                "grupo": "pecho",
+                "series": 3,
+                "repeticiones": "14-20",
+                "descanso": "54s"
+              },
+              {
+                "ejercicio": "Dominadas",
+                "grupo": "espalda",
+                "series": 3,
+                "repeticiones": "14-19",
+                "descanso": "51s"
+              },
+              {
+                "ejercicio": "Prensa",
+                "grupo": "piernas",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "43s"
+              },
+              {
+                "ejercicio": "Press Arnold",
+                "grupo": "hombros",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "36s"
+              },
+              {
+                "ejercicio": "Press cerrado",
+                "grupo": "brazos",
+                "series": 3,
+                "repeticiones": "13-19",
+                "descanso": "43s"
+              },
+              {
+                "ejercicio": "Escaladora",
+                "grupo": "cardio",
+                "duracion": "21 min",
+                "intensidad": "HIIT"
+              }
+            ],
+            "Día 3": [
+              {
+                "ejercicio": "Fondos en paralelas",
+                "grupo": "pecho",
+                "series": 3,
+                "repeticiones": "13-18",
+                "descanso": "33s"
+              },
+              {
+                "ejercicio": "Remo en polea",
+                "grupo": "espalda",
+                "series": 3,
+                "repeticiones": "14-18",
+                "descanso": "60s"
+              },
+              {
+                "ejercicio": "Sentadilla",
+                "grupo": "piernas",
+                "series": 3,
+                "repeticiones": "12-18",
+                "descanso": "48s"
+              },
+              {
+                "ejercicio": "Remo al mentón",
+                "grupo": "hombros",
+                "series": 3,
+                "repeticiones": "12-19",
+                "descanso": "33s"
+              },
+              {
+                "ejercicio": "Dominadas cerradas",
+                "grupo": "brazos",
+                "series": 3,
+                "repeticiones": "12-20",
+                "descanso": "54s"
+              },
+              {
+                "ejercicio": "HIIT",
+                "grupo": "cardio",
+                "duracion": "25 min",
+                "intensidad": "HIIT"
+              }
+            ]
+          },
+          "estructura": "fullbody",
+          "metadatos": {
+            "modo_generacion": "exploracion",
+            "innovacion_level": "alta"
+          },
+          "fecha_generacion": "2025-12-03T23:59:17.530957",
+          "satisfaccion": 4,
+          "comentarios": "ME PARECE BIEN"
+        },
+        "satisfaccion": 4,
+        "comentarios": "ME PARECE BIEN",
+        "fecha": "2025-12-03T23:59:27.422482"
       }
     ],
     "patrones_exitosos": {
@@ -1752,6 +2132,164 @@
           },
           "satisfaccion": 4,
           "fecha": "2025-12-03T23:14:35.278741"
+        },
+        {
+          "rutina": {
+            "routine_id": "RUT_20251203_235917",
+            "perfil": {
+              "edad": 21,
+              "peso": 70.0,
+              "altura": 1.72,
+              "imc": 23.66,
+              "nivel_num": 1,
+              "nivel_str": "principiante",
+              "objetivo_num": 1,
+              "objetivo_str": "perder_peso",
+              "dias": 3,
+              "created_at": "2025-12-03T23:59:17.503512"
+            },
+            "rutina_semanal": {
+              "Día 1": [
+                {
+                  "ejercicio": "Fondos en paralelas",
+                  "grupo": "pecho",
+                  "series": 3,
+                  "repeticiones": "14-18",
+                  "descanso": "45s"
+                },
+                {
+                  "ejercicio": "Remo en polea",
+                  "grupo": "espalda",
+                  "series": 3,
+                  "repeticiones": "14-18",
+                  "descanso": "44s"
+                },
+                {
+                  "ejercicio": "Sentadilla",
+                  "grupo": "piernas",
+                  "series": 3,
+                  "repeticiones": "13-18",
+                  "descanso": "44s"
+                },
+                {
+                  "ejercicio": "Press militar",
+                  "grupo": "hombros",
+                  "series": 3,
+                  "repeticiones": "12-20",
+                  "descanso": "38s"
+                },
+                {
+                  "ejercicio": "Dominadas cerradas",
+                  "grupo": "brazos",
+                  "series": 3,
+                  "repeticiones": "14-18",
+                  "descanso": "50s"
+                },
+                {
+                  "ejercicio": "Bicicleta",
+                  "grupo": "cardio",
+                  "duracion": "22 min",
+                  "intensidad": "HIIT"
+                }
+              ],
+              "Día 2": [
+                {
+                  "ejercicio": "Fondos en paralelas",
+                  "grupo": "pecho",
+                  "series": 3,
+                  "repeticiones": "14-20",
+                  "descanso": "54s"
+                },
+                {
+                  "ejercicio": "Dominadas",
+                  "grupo": "espalda",
+                  "series": 3,
+                  "repeticiones": "14-19",
+                  "descanso": "51s"
+                },
+                {
+                  "ejercicio": "Prensa",
+                  "grupo": "piernas",
+                  "series": 3,
+                  "repeticiones": "13-18",
+                  "descanso": "43s"
+                },
+                {
+                  "ejercicio": "Press Arnold",
+                  "grupo": "hombros",
+                  "series": 3,
+                  "repeticiones": "13-18",
+                  "descanso": "36s"
+                },
+                {
+                  "ejercicio": "Press cerrado",
+                  "grupo": "brazos",
+                  "series": 3,
+                  "repeticiones": "13-19",
+                  "descanso": "43s"
+                },
+                {
+                  "ejercicio": "Escaladora",
+                  "grupo": "cardio",
+                  "duracion": "21 min",
+                  "intensidad": "HIIT"
+                }
+              ],
+              "Día 3": [
+                {
+                  "ejercicio": "Fondos en paralelas",
+                  "grupo": "pecho",
+                  "series": 3,
+                  "repeticiones": "13-18",
+                  "descanso": "33s"
+                },
+                {
+                  "ejercicio": "Remo en polea",
+                  "grupo": "espalda",
+                  "series": 3,
+                  "repeticiones": "14-18",
+                  "descanso": "60s"
+                },
+                {
+                  "ejercicio": "Sentadilla",
+                  "grupo": "piernas",
+                  "series": 3,
+                  "repeticiones": "12-18",
+                  "descanso": "48s"
+                },
+                {
+                  "ejercicio": "Remo al mentón",
+                  "grupo": "hombros",
+                  "series": 3,
+                  "repeticiones": "12-19",
+                  "descanso": "33s"
+                },
+                {
+                  "ejercicio": "Dominadas cerradas",
+                  "grupo": "brazos",
+                  "series": 3,
+                  "repeticiones": "12-20",
+                  "descanso": "54s"
+                },
+                {
+                  "ejercicio": "HIIT",
+                  "grupo": "cardio",
+                  "duracion": "25 min",
+                  "intensidad": "HIIT"
+                }
+              ]
+            },
+            "estructura": "fullbody",
+            "metadatos": {
+              "modo_generacion": "exploracion",
+              "innovacion_level": "alta"
+            },
+            "fecha_generacion": "2025-12-03T23:59:17.530957",
+            "satisfaccion": 4,
+            "comentarios": "ME PARECE BIEN"
+          },
+          "satisfaccion": 4,
+          "fecha": "2025-12-03T23:59:27.422536"
         }
       ]
     },
@@ -1759,26 +2297,28 @@
       "pecho": {
         "Press inclinado": 2,
         "Press banca": 2,
-        "Fondos en paralelas": 1
+        "Fondos en paralelas": 4
       },
       "espalda": {
         "Remo con barra": 1,
-        "Remo en polea": 2,
-        "Dominadas": 1,
+        "Remo en polea": 4,
+        "Dominadas": 2,
         "Peso muerto": 1
       },
       "hombros": {
-        "Press Arnold": 4,
-        "Remo al mentón": 1
+        "Press Arnold": 5,
+        "Remo al mentón": 2,
+        "Press militar": 1
       },
       "brazos": {
-        "Press cerrado": 4,
-        "Dominadas cerradas": 1
+        "Press cerrado": 5,
+        "Dominadas cerradas": 3
       },
       "piernas": {
         "Peso muerto rumano": 2,
         "Sentadilla búlgara": 1,
-        "Prensa": 2
+        "Prensa": 3,
+        "Sentadilla": 2
       },
       "core": {
         "Crunches": 1
@@ -1815,9 +2355,13 @@
       {
         "generacion": 0,
         "satisfaccion": 4
+      },
+      {
+        "generacion": 0,
+        "satisfaccion": 4
       }
     ],
     "mejores_rutinas": []
   },
-  "last_update": "2025-12-03T23:14:35.279224"
+  "last_update": "2025-12-04T00:15:21.901057"
 }
